@@ -1,7 +1,7 @@
 def func(name,age):
     print(f"Your name is {name} and your {age}")
 def main():
-    func("Test",10)
+    func("Amit",10)
 
 
 if __name__ == "__main__":
