@@ -13,7 +13,7 @@ def slice_string(s):
             slice_input = slice_input +i
     return slice_input
 def main():
-    print(slice_string("hello"))
+    print(slice_string("World"))
 
 
 if __name__ == "__main__":
