@@ -1,11 +1,10 @@
 
 
 def list_print():
- lst = [[1,2,3],[4,5,6],[7,8,9]]
- for i in lst:
-         print(sum(i))
+    var = [i ** 2 for i in range(5)]
+    return var
 def main():
-  list_print()
+    print(list_print())
 
 if __name__ == "__main__":
     main()
