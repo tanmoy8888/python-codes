@@ -5,6 +5,8 @@ def check_set():
    print(my_set_1)
    my_set_1.remove(6)
    print(my_set_1)
+   my_set_1.discard(6)
+   print(my_set_1)
 def main():
     check_set()
 
