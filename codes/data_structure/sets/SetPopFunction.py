@@ -3,6 +3,9 @@ def check_set():
    my_set_1.pop()
    print(my_set_1)
 
+   my_set_1.clear()
+   print(my_set_1)
+
 def main():
     check_set()
 
