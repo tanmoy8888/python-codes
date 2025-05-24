@@ -4,6 +4,7 @@ def check_set():
    for s in text.split(" "):
        my_set.add(s)
    print(my_set)
+   print(set(text.split(" ")))
 def main():
     check_set()
 
