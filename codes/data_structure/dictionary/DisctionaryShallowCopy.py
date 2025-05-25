@@ -4,6 +4,8 @@ def check_dict():
     print(my_dict_1)
     my_dict_2[0] = "ABCDE"
     print(my_dict_2)
+    my_dict_3 = my_dict_1.copy()
+    print(my_dict_3)
 
 def main():
     check_dict()
