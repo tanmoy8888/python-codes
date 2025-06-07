@@ -7,5 +7,7 @@ def main():
     print(math.trunc(y))
     # Value of PI
     print(math.pi)
+    # Factorial
+    print(math.factorial(5))
 if __name__ == "__main__":
     main()
