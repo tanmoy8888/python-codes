@@ -10,5 +10,12 @@ def main():
 
     y = "123"
     print("Is y is a digit :: ",y.isdigit())
+    # Check space
+    z = ' '
+    print(z.isspace())
+    a = " "
+    print(a.isspace())
+
+
 if __name__ == "__main__":
     main()
