@@ -15,6 +15,8 @@ def main():
     print(z.isspace())
     a = " "
     print(a.isspace())
+    # Reverse String
+    print("Printing String in reverse :: ",x[::-1])
 
 
 if __name__ == "__main__":
