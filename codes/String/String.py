@@ -7,5 +7,8 @@ def main():
     print(x.lower())
     print(x.capitalize())
     print(x.title())
+
+    y = "123"
+    print("Is y is a digit :: ",y.isdigit())
 if __name__ == "__main__":
     main()
