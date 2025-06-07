@@ -1,8 +1,5 @@
 import math
 
-from codes.function.EvenOrOdd import even_or_odd
-
-
 def main():
     print(add(2, 3))
     # Lambda Function
