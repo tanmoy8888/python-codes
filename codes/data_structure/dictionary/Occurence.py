@@ -10,6 +10,5 @@ def check_dict():
 def main():
     check_dict()
 
-
 if __name__ == "__main__":
     main()
