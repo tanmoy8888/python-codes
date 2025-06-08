@@ -7,11 +7,15 @@ def main():
   print(df.head())
 
   print("--------------Printing last five rows----------------")
-  print(df.tail())
+  print(df.tail)
   print("--------------Printing number of rows and columns----------------")
   print(df.shape)
   print("--------------Printing info of rows and columns----------------")
   print(df.info)
+  print("--------------Printing description of rows and columns----------------")
+  print(df.describe())
+  print("--------------Printing sum of rows and columns----------------")
+  print(df.isnull().sum())
 
 if __name__ == "__main__":
     main()
