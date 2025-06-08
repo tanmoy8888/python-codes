@@ -11,7 +11,8 @@ def main():
   print(df2)
   # group by
   print("----------Printing sum of revenue based on the region-------------")
-  print(df.groupby('Region')['Total Revenue'].sum)
+  df3 = df.groupby('Region')['Total Revenue'].sum()
+  print(df3)
 
 if __name__ == "__main__":
     main()
