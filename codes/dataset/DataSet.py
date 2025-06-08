@@ -16,6 +16,9 @@ def main():
   print(df.describe())
   print("--------------Printing sum of rows and columns----------------")
   print(df.isnull().sum())
+  print("--------------Printing fillna of rows and columns----------------")
+  df['Region'] = df.fillna('N/A')
+  print(df)
 
 if __name__ == "__main__":
     main()
