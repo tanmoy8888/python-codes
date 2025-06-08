@@ -1,5 +1,5 @@
 import pandas as pd
-# Pandas dataet
+# Pandas dataset
 def main():
   df = pd.read_csv('sales_data.csv')
   #printing specific value
