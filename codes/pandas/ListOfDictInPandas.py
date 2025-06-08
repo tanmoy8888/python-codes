@@ -32,6 +32,9 @@ def main():
     df.drop(0, axis=0, inplace=True)
     print("---------Dropping of row in existing DF ------------")
     print(df)
+    df['Age']= df['Age']+1
+    print("---------Incrementing value of a column in existing DF ------------")
+    print(df)
 
 if __name__ == "__main__":
     main()
