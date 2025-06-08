@@ -24,6 +24,10 @@ def main():
     df['salary'] =[100,200,300]
     print("---------Addition of a new column in existing DF ------------")
     print(df)
+    # dropping a column in dataframe
+    df.drop('salary',axis=1,inplace=True)
+    print("---------Dropping of a new column in existing DF ------------")
+    print(df)
 
 if __name__ == "__main__":
     main()
