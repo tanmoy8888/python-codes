@@ -8,6 +8,8 @@ def main():
 
   print("--------------Printing last five rows----------------")
   print(df.tail())
+  print("--------------Printing number of rows and columns----------------")
+  print(df.shape)
 
 if __name__ == "__main__":
     main()
