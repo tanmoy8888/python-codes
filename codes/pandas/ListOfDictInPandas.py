@@ -10,9 +10,13 @@ def main():
     df = pd.DataFrame(data)
     print(df)
     # printing any specific column
-    print("Printing only Address")
+    print("---------Printing only Address------------")
     df1 = df['Address']
     print(df1)
+    print("---------Printing only first row------------")
+    print(df.loc[0])
+    print("---------Printing only Name column value of first row------------")
+    print(df.loc[0, 'Name'])
 
 if __name__ == "__main__":
     main()
