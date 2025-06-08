@@ -9,6 +9,9 @@ def main():
   df2 = df.sort_values(by='Total Revenue' , ascending=False)
   print("----------Printing in sorted order-------------")
   print(df2)
+  # group by
+  print("----------Printing sum of revenue based on the region-------------")
+  print(df.groupby('Region')['Total Revenue'].sum)
 
 if __name__ == "__main__":
     main()
