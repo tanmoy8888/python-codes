@@ -28,6 +28,10 @@ def main():
     df.drop('salary',axis=1,inplace=True)
     print("---------Dropping of a new column in existing DF ------------")
     print(df)
+    # dropping a row in dataframe
+    df.drop(0, axis=0, inplace=True)
+    print("---------Dropping of row in existing DF ------------")
+    print(df)
 
 if __name__ == "__main__":
     main()
