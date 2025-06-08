@@ -9,6 +9,10 @@ def main():
     ]
     df = pd.DataFrame(data)
     print(df)
+    # printing any specific column
+    print("Printing only Address")
+    df1 = df['Address']
+    print(df1)
 
 if __name__ == "__main__":
     main()
