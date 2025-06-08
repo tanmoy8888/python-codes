@@ -17,6 +17,9 @@ def main():
     print(df.loc[0])
     print("---------Printing only Name column value of first row------------")
     print(df.loc[0, 'Name'])
+    # iloc function on dataframe
+    print("---------Printing using ioc function ------------")
+    print(df.iloc[1, 2])
 
 if __name__ == "__main__":
     main()
