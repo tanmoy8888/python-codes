@@ -20,6 +20,10 @@ def main():
     # iloc function on dataframe
     print("---------Printing using ioc function ------------")
     print(df.iloc[1, 2])
+    # adding a column in dataframe
+    df['salary'] =[100,200,300]
+    print("---------Addition of a new column in existing DF ------------")
+    print(df)
 
 if __name__ == "__main__":
     main()
