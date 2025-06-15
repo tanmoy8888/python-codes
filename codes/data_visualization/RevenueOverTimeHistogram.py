@@ -9,7 +9,7 @@ def main():
   df['Date'] = pd.to_datetime(df['Date'])
   plt.figure(figsize=(10,5))
   #plt.plot(df['Date'],df['Total Revenue'], marker='o')
-  plt.hist(df['Total Revenue'], bins=25)
+  plt.hist(df['Total Revenue'], bins=25 , edgecolor='black')
   plt.xlabel('Total Revenue')
   plt.ylabel('Frequency')
   plt.title('Distribution of Total Revenue')
