@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # Pandas dataset
 def main():
-  df = pd.read_csv("sales_data.csv")
+  df = pd.read_csv("../heatmap/sales_data.csv")
   data = df.groupby("Product Category")["Total Revenue"].sum()
   print(data)
 
