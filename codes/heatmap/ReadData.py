@@ -4,9 +4,13 @@ import matplotlib.pyplot as plt
 # Pandas dataset
 def main():
   df = pd.read_csv("sales_data.csv")
-  df = df.head()
-  print(df)
-  print(df['Product Category'].value_counts())
+  data = df.groupby("Product Category")["Total Revenue"].sum()
+  print(data)
 
+  plt.bar(data.index,data.values)
+  plt.xlabel('Category')
+  plt.xlabel('Revenue')
+
+  plt.show()
 if __name__ == "__main__":
     main()
