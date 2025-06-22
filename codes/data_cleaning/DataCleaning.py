@@ -14,6 +14,8 @@ def main():
   # Taking only date
   df['Days'] = df['Date_of_Journey'].str.split('/').str[0]
   print(df['Days'])
+  ## Not working need to fix
+  #print(df['Duration'].str.split(" ").str[0].split('h').str[0].astype(int))
 
 
 
