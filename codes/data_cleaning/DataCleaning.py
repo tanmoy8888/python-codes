@@ -6,5 +6,9 @@ def main():
   print(df)
   df.dropna(subset=['Route','Total_Stops'],inplace=True)
   print(df.isnull().sum())
+
+  # Unique values
+  print(df['Airline'].value_counts())
+
 if __name__ == "__main__":
     main()
