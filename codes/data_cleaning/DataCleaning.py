@@ -12,7 +12,8 @@ def main():
   # Splitting date
   print(df['Date_of_Journey'].str.split('/'))
   # Taking only date
-  print(df['Date_of_Journey'].str.split('/').str[0])
+  df['Days'] = df['Date_of_Journey'].str.split('/').str[0]
+  print(df['Days'])
 
 
 
