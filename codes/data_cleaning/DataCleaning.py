@@ -9,6 +9,13 @@ def main():
 
   # Unique values
   print(df['Airline'].value_counts())
+  # Splitting date
+  print(df['Date_of_Journey'].str.split('/'))
+  # Taking only date
+  print(df['Date_of_Journey'].str.split('/').str[0])
+
+
+
 
 if __name__ == "__main__":
     main()
